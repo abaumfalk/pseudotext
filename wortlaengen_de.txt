@@ -1,0 +1,19 @@
+# Silben Häufigkeit relativ
+# George Kingsley Zipf: The Psycho-Biology of Language. An Introduction to Dynamic Philology
+# The M.I.T. Press, Cambridge, Massachusetts 1968, Seite 23. Erstdruck 1935.
+# s. auch https://de.wikipedia.org/wiki/Wortl%C3%A4nge
+1	5426326	49,75
+2	3156448	28,94
+3	1410494	12,93
+4	646971	5,93
+5	187738	1,72
+6	54436	0,50
+7	16993	0,16
+8	5038	0,05
+9	1225	0,01
+10	461	0,00
+11	59	0,00
+12	35	0,00
+13	8	0,00
+14	2	0,00
+15	1	0,00
