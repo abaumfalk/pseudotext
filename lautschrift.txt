@@ -1,14 +1,14 @@
 # Transkription der Lautschrift deutscher Silben in deutsche Normalschrift
-# Arno Baumfalk 09/2023
+# Arno Baumfalk & Harriet Eidam 09/2023
 di: die
 gə ge
 tə te
 bə be
 tən ten
-tsu: tsuh
+tsu: zuh
 das das
-aI ai
-fɛr fär
+aI ei
+fɛr ver
 an an
 gən gen
 lIç lich
@@ -25,8 +25,8 @@ də de
 zi: sie
 auf auf
 fɔn von
-ɛr är
-dɛs däs
+ɛr er
+dɛs des
 ʊn un
 rən ren
 zIç sich
@@ -46,12 +46,12 @@ da: dah
 e:r ehr
 o: oh
 sən sen
-bai bai
+bai bei
 ɛs es
-fo:r fohr
+fo:r vor
 ʃən schen
 rə re
-tsi: tsie
+tsi: zie
 ŋən ngen
 y: üh
 ən en
@@ -74,7 +74,7 @@ auχ auch
 çə che
 na:χ nach
 ʊm um
-ap ap
+ap ab
 re: reh
 ja: jah
 man man
@@ -90,14 +90,14 @@ tIʃ tisch
 vI:r wier
 nɔX noch
 dʊrç durch
-ʊnt unt
+ʊnt und
 vɛn wenn
 ni: nie
 nəm nem
 ar ar
 ə e
 fən fen
-zInt sint
+zInt sind
 tʊŋ tung
 ʃə sche
 nu:r nuhr
@@ -134,7 +134,7 @@ zər ser
 va: wah
 dɔy deu
 kai kai
-tsən tsen
+tsən zen
 mər mer
 to: toh
 nɔy neu
@@ -192,7 +192,7 @@ dʊŋ dung
 ɛt ätt
 ŋə nge
 ʃo:n schon
-lant lant
+lant land
 la: lah
 vɛlt welt
 nʊŋ nung
