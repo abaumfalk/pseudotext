@@ -110,21 +110,28 @@ def words2lines(words, line_length=80):
     return lines
 
 
+def generate_pseudo_words(num_words):
+    words = []
+    for _ in range(num_words):
+        word_len = word_len_gen.get()
+        word = []
+        for _ in range(word_len):
+            ipa = syllable_gen.get()
+            word.append(ipa)
+        words.append(word)
+
+    return words
+
+
 if __name__ == '__main__':
     syllable_gen = SyllableGen(Path(__file__).parent / 'silbenhaeufigkeit_de.txt')
     word_len_gen = WordLenGen(Path(__file__).parent / 'wortlaengen_de.txt')
 
-    length = 128
-    ipa_words = []
-    for _ in range(length):
-        word_len = word_len_gen.get()
-        ipa_word = []
-        for _ in range(word_len):
-            ipa = syllable_gen.get()
-            ipa_word.append(ipa)
-        ipa_words.append(ipa_word)
+    word_count = 128
+    ipa_words = generate_pseudo_words(word_count)
 
-    lines = words2lines(ipa_words, line_length=58)
+    line_length = 58
+    lines = words2lines(ipa_words, line_length=line_length)
 
     print("IPA:")
     for line in lines:
