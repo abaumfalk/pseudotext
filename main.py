@@ -32,7 +32,7 @@ def words2lines(words, line_length=80):
     return lines
 
 
-def generate_pseudo_words(num_words):
+def generate_pseudo_words(sy_gen, len_gen, num_words):
     words = []
     for _ in range(num_words):
         word_len = word_len_gen.get()
@@ -50,7 +50,7 @@ if __name__ == '__main__':
     word_len_gen = WordLenGen(Path(__file__).parent / 'wortlaengen_de.txt')
 
     word_count = 128
-    ipa_words = generate_pseudo_words(word_count)
+    ipa_words = generate_pseudo_words(syllable_gen, word_len_gen, word_count)
 
     line_length = 58
     lines = words2lines(ipa_words, line_length=line_length)
