@@ -46,8 +46,8 @@ def generate_pseudo_words(sy_gen, len_gen, num_words):
 
 
 if __name__ == '__main__':
-    syllable_gen = SyllableGen(Path(__file__).parent / 'silbenhaeufigkeit_de.txt')
-    word_len_gen = WordLenGen(Path(__file__).parent / 'wortlaengen_de.txt')
+    syllable_gen = SyllableGen(Path(__file__).parent.parent / 'data' / 'silbenhaeufigkeit_de.txt')
+    word_len_gen = WordLenGen(Path(__file__).parent.parent / 'data' / 'wortlaengen_de.txt')
 
     word_count = 128
     ipa_words = generate_pseudo_words(syllable_gen, word_len_gen, word_count)
@@ -63,7 +63,7 @@ if __name__ == '__main__':
     print()
 
     print("Transkription:")
-    tran = IPATranscriptor(Path(__file__).parent / 'lautschrift.txt')
+    tran = IPATranscriptor(Path(__file__).parent.parent / 'data' / 'lautschrift.txt')
     for line in lines:
         print_words(line, syllable_join='-', transcribe_fn=tran.transcribe)
         print()
