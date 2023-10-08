@@ -4,6 +4,8 @@ from pathlib import Path
 from generator import SyllableGen, WordLenGen
 from transcriptor import IPATranscriptor
 
+VERSION = 1.1
+
 
 def print_words(words, word_join=' ', syllable_join='', transcribe_fn=None):
     for word in words:
